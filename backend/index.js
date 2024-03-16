@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 // connection with mongo
 
-const MONGO_URL = process.env.MONGO_URL;
+const MONGO_URL = process.env.MONGO2_URL;
 const connection = () => {
     mongoose.set('strictQuery', false);
     mongoose.connect(MONGO_URL, {
